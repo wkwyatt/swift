@@ -1,4 +1,6 @@
-# Airbnb Swift Style Guide
+# MapAnything Swift Style Guide
+
+This style design guide is intended to provide consistent design patterns and principles to developers working on any MapAnything related mobile apps using Swift.  The following style guide is derived from AirBnB and is an extension of the [Swift API Design Guidelines](https://swift.org/documentation/api-design-guidelines/).  Contributions to this document should follow the rules of the [CONTRIBUTING](CONTRIBUTING.md) document.
 
 ## Goals
 
@@ -32,7 +34,6 @@ Note that brevity is not a primary goal. Code should be made more concise only i
 1. [Patterns](#patterns)
 1. [File Organization](#file-organization)
 1. [Objective-C Interoperability](#objective-c-interoperability)
-1. [Contributors](#contributors)
 1. [Amendments](#amendments)
 
 ## Xcode Formatting
@@ -1072,7 +1073,7 @@ _You can enable the following settings in Xcode by running [this script](resourc
   ```swift
   // WRONG
 
-  //  Copyright © 2018 Airbnb. All rights reserved.
+  //  Copyright © 2019 MapAnything. All rights reserved.
   //
   import DLSPrimitives
   import Constellation
@@ -1082,7 +1083,7 @@ _You can enable the following settings in Xcode by running [this script](resourc
 
   //RIGHT
 
-  //  Copyright © 2018 Airbnb. All rights reserved.
+  //  Copyright © 2019 MapAnything. All rights reserved.
   //
 
   import Constellation
@@ -1100,7 +1101,7 @@ _You can enable the following settings in Xcode by running [this script](resourc
   ```swift
   // WRONG
 
-  //  Copyright © 2018 Airbnb. All rights reserved.
+  //  Copyright © 2019 MapAnything. All rights reserved.
   //
 
   import DLSPrimitives
@@ -1111,7 +1112,7 @@ _You can enable the following settings in Xcode by running [this script](resourc
 
   //RIGHT
 
-  //  Copyright © 2018 Airbnb. All rights reserved.
+  //  Copyright © 2019 MapAnything. All rights reserved.
   //
 
   import DLSPrimitives
@@ -1156,12 +1157,6 @@ _You can enable the following settings in Xcode by running [this script](resourc
   ```
 
   </details>
-
-**[⬆ back to top](#table-of-contents)**
-
-## Contributors
-
-  - [View Contributors](https://github.com/airbnb/swift/graphs/contributors)
 
 **[⬆ back to top](#table-of-contents)**
 
